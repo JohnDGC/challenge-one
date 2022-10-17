@@ -33,16 +33,25 @@ body {
   border-radius: 20px;
 }
 
-.text {
+.card__text {
   padding: 15px 12px;
 }
 
-.text h2 {
+.card__text h2 {
   color: hsl(218, 44%, 22%);
 }
 
-.text p {
+.card__text p {
   margin-top: 10px;
   color: hsl(220, 15%, 55%);
   font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
